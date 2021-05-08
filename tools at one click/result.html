@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Remove theses two lines if it's working
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  -->
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  
+
+  <script type="text/javascript" src="result.js" ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="vendor/bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-dark mb-0 h1">
+  		 <a class="navbar-brand" href="#">
+  		  <img src="relay.png" alt="Logo" style="width:90%;"/>
+ 		 </a>
+		
+		
+	</nav>
+<div class="container">
+  <a href="index.html">HOME</a>
+  <h2>Welcome to One Stop Tool</h2>
+  		<p>You have searched for Lane: </p>
+  		<p><strong>Origin:</strong>  <strong><span id="result-name" /></strong></p>
+  		<p><strong>Truck Filter:</strong>  <strong><span id="result-surname" /></strong></p>
+  
+  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">SSP</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body"><iframe id="showskill1" scrolling="yes" height="300" width ="1100" src=""></iframe></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">CAPS</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"><iframe id="showskill" scrolling="yes" height="300" width ="1100" src=""></iframe></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Reactive Scheduling</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body"><iframe id="showskill2" scrolling="yes" height="800" width ="1100" src=""></iframe></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Rodeo</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body"><iframe id="showskill3" scrolling="yes" height="800" width ="1100" src=""></iframe></div>
+    </div>
+  </div> 
+</div>
+    
+</body>
+</html>
