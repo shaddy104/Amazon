@@ -1,7 +1,7 @@
 # Amazon
 Service Area: International Business, Machine Learning and process automation.
 
-**Please go through code files for all my learnings and achievements**
+**Please go through code files for all my learnings, certifications and achievements**
 
 •	Disruption of timeliness disruption cases.
 • Python OS standard library to run Tabcmd to connect to tableau and draw compliance data from server and send it across network through email for process automation.
