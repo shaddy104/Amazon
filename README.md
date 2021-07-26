@@ -3,7 +3,7 @@ Service Area: International Business, Machine Learning and process automation.
 
 **Please go through code files for all my learnings and achievements**
 
-•	Disruption of timeliness disruption cases.\n
+•	Disruption of timeliness disruption cases.
 • Python OS standard library to run Tabcmd to connect to tableau and draw compliance data from server and send it across network through email for process automation.
 •	Written Python Selenium web driver scripts to perform automation of a process.
 •	Business improvement using analysis and data driven through Quick sight, SQL, ITS, Datanet and Redshift.
